@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #55ec61; 
+    padding: 20px;
+    text-align: center; 
+}
+
+nav {
+    background-color: #00ffff91; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 15px; 
+	
+}
+
+nav a {
+    color: rgb(0, 0, 0); 
+	
+    text-decoration: none; 
+	
+}
+
+nav a:hover {
+    color: #FFD700; 
+	
+}
+
+main {
+    padding: 20px;
+}
+
+.contenedor {
+    border: 2px solid #e20d0d; 
+    border-radius: 15px; 
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1); 
+    margin: 200px 0; 
+    padding: 15px; 
+}
+
+.contenedor h2 {
+    color: #0edb14;
+    text-align: left; 
+}
+
+.contenedor p {
+    color: #e41313; 
+    font-size: 16px; 
+}
+
+footer {
+    background-color: #000000; 
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+.motocicleta{
+	display:flex;
+	justify-content: space-around;
+	padding: 20px;
+}
